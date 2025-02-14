@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script>
+    const qtdNotas = Number(prompt("Quantas notas deseja informar?")); // Pergunta a quantidade de notas
+    let soma = 0; // Inicializa a variável para somar as notas
+
+    for (let i = 1; i <= qtdNotas; i++) { // Loop para solicitar as notas
+        const nota = Number(prompt(`Informe a nota ${i}:`)); // Solicita a nota atual
+        soma += nota; // Soma a nota à variável 'soma'
+    }
+
+    const media = soma / qtdNotas; // Calcula a média
+    alert(`A Média do Aluno é: ${media}`); // Exibe a média
+</script>
