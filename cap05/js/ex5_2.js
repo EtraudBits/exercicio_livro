@@ -3,7 +3,7 @@ const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 
 //cria "ouvinte" de evento, acionado quando o botão submit for clicado
-frm.addEventListener ("submit", (e) => {
+frm.addEventListener("submit", (e) => {
     e.preventDefault() //evita o form ser enviado
     //obtém conteudo dos campos de entrada
     const numero = Number(frm.inNumero.value)
