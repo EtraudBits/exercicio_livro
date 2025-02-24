@@ -1,0 +1,23 @@
+img.normal {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+img.alta {
+    float: left;
+    height: 220px;
+    width: 220px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+h3 {
+    color: rgb(255, 0, 170);
+}
